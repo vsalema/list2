@@ -8,7 +8,7 @@
 
 <style>
 
-  .carousel-indicators {
+  .carousel-indicators  {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -21,8 +21,11 @@
   margin-bottom: 21rem;
   margin-left: 15%;
   list-style: none;
-}
+
   
+  }
+
+.carousel-indicators button.active {background-color: red;}
   
   .bg-light2 {
   --bs-bg-opacity: 1;
@@ -37,7 +40,9 @@
   top: 58%;
   opacity: .9;
   } 
-  
+  .carousel-indicators [data-bs-target] {
+  opacity: .9;
+  }
   .fixed-top {
    height: 1%;
 }
